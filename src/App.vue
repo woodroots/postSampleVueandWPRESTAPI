@@ -83,7 +83,7 @@ export default {
   },
   mounted() {
     var vm = this;
-    vm.url = "http://posted.local/wp-json/wp/v2";
+    vm.url = "https://example.com/wp/wp-json/wp/v2";
 
     vm.get();
   },
@@ -104,7 +104,7 @@ export default {
           {
             headers: {
               Authorization:
-                "Basic YWRtaW46cHE4eSBRV2szIDhaREYgbFJrcyBlOFpxIGxnc3M="
+                "Basic <<username:passordをbase64にしたもの：後述>>"
             }
           }
         )
