@@ -95,7 +95,7 @@ export default {
           vm.url + "/posts",
           {
             content: vm.content,
-            author: 1,
+            author: 2, //consumerのユーザーID,
             meta: {
               genre: vm.genre
             },
